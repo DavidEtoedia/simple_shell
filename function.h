@@ -18,5 +18,8 @@ int number(int num);
 char *stringify(int numbe);
 int isNumeric(unsigned int number);
 int hasLetter(char *string);
+char **tokenize_words(char *string, const char *del);
+char *mergeWords(char *w1, char *w2, char *w3, const char *del);
+char *parse_prompt(void);
 int _strlen(char *s);
 #endif
