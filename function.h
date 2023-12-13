@@ -58,4 +58,6 @@ int writeCharacter(char character);
 int manageNumbers(shelldata_t *mytype, char *argument);
 int _atoi(char *s);
 void additionalError(shelldata_t *mytype, char *more);
+int systemFunction(shelldata_t *mytype, char **args);
+int writeCharacterToFD(char cha, int fil_d);
 #endif
