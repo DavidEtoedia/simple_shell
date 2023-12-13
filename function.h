@@ -18,5 +18,5 @@ int number(int num);
 char *stringify(int numbe);
 int isNumeric(unsigned int number);
 int hasLetter(char *string);
-
+int _strlen(char *s);
 #endif
