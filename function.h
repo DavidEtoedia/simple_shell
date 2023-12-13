@@ -22,5 +22,6 @@ char **tokenize_words(char *string, const char *del);
 char *mergeWords(char *w1, char *w2, char *w3, const char *del);
 char *parse_prompt(void);
 void initiatePrompt(shelldata_t *mytype);
+void getInput(shelldata_t *mytype);
 int _strlen(char *s);
 #endif
